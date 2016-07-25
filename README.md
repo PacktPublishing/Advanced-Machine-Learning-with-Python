@@ -1,6 +1,6 @@
 # Advanced Machine Learning with Python
 
-Hardware software list for this book
+Hardware software list
 
 
 Chapter number	Software required (With version)
