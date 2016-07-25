@@ -1,0 +1,5 @@
+http://www.lfd.uci.edu/~gohlke/pythonlibs/#nlopt
+
+... for 32 or AMD 64!
+
+If you're on Intel 64, you'll need to grab the .whl from the nlopt site.
