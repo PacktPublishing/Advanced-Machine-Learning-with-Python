@@ -1,3 +1,7 @@
+# randomforest over the digits dataset, the toy data that we used for many examples earlier in this book.
+# the randomforest algorithm below frequently achieves an accuracy score of 1.
+
+
 import numpy as np
 from sklearn.ensemble import RandomForestClassifier
 from sklearn.datasets import load_digits

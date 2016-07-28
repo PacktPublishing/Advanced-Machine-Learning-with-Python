@@ -1,4 +1,4 @@
-importurllib.request, urllib.error, urllib.parse
+import urllib.request, urllib.error, urllib.parse
 import json
 
 latN = str(49.310911)
@@ -6,9 +6,9 @@ latS = str(49.201444)
 lonW = str(-123.225544)
 lonE = str(-122.903931)
 
-url = 'http://dev.virtualearth.net/REST/v1/Traffic/Incidents/'+latS+','+lonW+','+latN+','+lonE+'?key='GETYOUROWNKEYPLEASE'
+url = 'http://dev.virtualearth.net/REST/v1/Traffic/Incidents/'+latS+','+lonW+','+latN+','+lonE+'?key=AmzMaM4yh-ouaKBgT5lirfVeRoHcULBik4GWuvM3zGBjkfipo5n2QW-uEqzMJOCs'
 
-response = urllib.request.urlopen(url).read()
+response = urlopen(url).read()
 data = json.loads(response.decode('utf8'))
 resources = data['resourceSets'][0]['resources']
 

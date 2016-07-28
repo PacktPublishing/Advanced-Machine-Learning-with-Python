@@ -1,3 +1,19 @@
+#this code runs over data from the Kaggle contest, "predicting a biological response". It achieves a score of 12th on the Private Leaderboard (feel free to try it out there yourself!)
+
+
+#Copyright 2012, Emanuele Olivetti.
+#BSD license, 3 clauses.
+#
+
+
+from __future__ import division
+import numpy as np
+import load_data
+from sklearn.cross_validation import StratifiedKFold
+from sklearn.ensemble import RandomForestClassifier, ExtraTreesClassifier
+from sklearn.ensemble import GradientBoostingClassifier
+from sklearn.linear_model import LogisticRegression
+
 if __name__ == '__main__':
 
     np.random.seed(0)
@@ -44,8 +60,7 @@ len(skf)))
             clf.fit(X_train, y_train)
             y_submission = clf.predict_proba(X_test)[:,1]
             dataset_blend_train[test, j] = y_submission
-            dataset_blend_test_j[:, i] =
-clf.predict_proba(X_submission)[:,1]
+            dataset_blend_test_j[:, i] = clf.predict_proba(X_submission)[:,1]
         dataset_blend_test[:,j] = dataset_blend_test_j.mean(1)
 
     print
@@ -55,8 +70,7 @@ clf.predict_proba(X_submission)[:,1]
     y_submission = clf.predict_proba(dataset_blend_test)[:,1]
 
     print "Linear stretch of predictions to [0,1]"
-    y_submission = (y_submission - y_submission.min()) /
-(y_submission.max() - y_submission.min())
+    y_submission = (y_submission - y_submission.min()) / (y_submission.max() - y_submission.min())
 
     print "Saving Results."
     np.savetxt(fname='test.csv', X=y_submission, fmt='%0.9f')

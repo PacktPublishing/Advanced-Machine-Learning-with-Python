@@ -1,0 +1,19 @@
+Put java dependencies here:
+
+1. Jackson parser
+http://repo1.maven.org/maven2/com/fasterxml/jackson/core/jackson-core/2.0.5/jackson-core-2.0.5.jar
+http://repo1.maven.org/maven2/com/fasterxml/jackson/core/jackson-annotations/2.0.5/jackson-annotations-2.0.5.jar
+http://repo1.maven.org/maven2/com/fasterxml/jackson/core/jackson-databind/2.0.5/jackson-databind-2.0.5.jar
+
+2. Stanford POS tagger
+Download from http://nlp.stanford.edu/software/stanford-postagger-2012-07-09.tgz
+Take these files from arhive:
+  stanford-postagger.jar
+  wsj-0-18-left3words.tagger
+  wsj-0-18-left3words.tagger.props
+
+3. Stanford parser
+Donload archive from http://nlp.stanford.edu/software/stanford-parser-2012-07-09.tgz
+Take these files from archive:
+  stanford-parser.jar
+  stanford-parser-2012-07-09-models.jar

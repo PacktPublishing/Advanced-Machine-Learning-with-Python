@@ -1,3 +1,5 @@
+#this script applies the xgboost algorithm. It requires the xgboost library (available through "pip install xgboost"!)
+
 import numpy as np
 import xgboost as xgb
 

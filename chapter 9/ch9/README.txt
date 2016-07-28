@@ -1,6 +1,6 @@
 Chapter 9 is largely informational, providing background on useful technical tools and describing their use. 
 
-For this reason, I recommend the following 3rd-party github tutorial repositories as a means of getting started. 
+For this reason, I recommend the enclosed 3rd-party github tutorial repositories as a means of getting started. 
 
 PLEASE EXPRESS RESPECTFUL SUPPORT OF THE ORIGINAL AUTHORS OF THESE TUTORIAL CODE SOLUTIONS!
 
