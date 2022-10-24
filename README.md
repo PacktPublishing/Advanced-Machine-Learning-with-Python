@@ -30,3 +30,7 @@ Chapter number	Software required (With version)
 [Building Machine Learning Systems with Python](https://www.packtpub.com/big-data-and-business-intelligence/building-machine-learning-systems-python?utm_source=github&utm_medium=repository&utm_campaign=9781782161400)
 
 [Mastering Python Data Analysis](https://www.packtpub.com/big-data-and-business-intelligence/mastering-python-data-analysis?utm_source=github&utm_medium=repository&utm_campaign=9781783553297)
+### Download a free PDF
+
+ <i>If you have already purchased a print or Kindle version of this book, you can get a DRM-free PDF version at no cost.<br>Simply click on the link to claim your free PDF.</i>
+<p align="center"> <a href="https://packt.link/free-ebook/9781784398637">https://packt.link/free-ebook/9781784398637 </a> </p>
